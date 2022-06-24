@@ -1,0 +1,143 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3vh;
+    margin: 0px;
+}
+
+body {
+    color: #000;
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.813);
+    width: 100%;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu__li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu__li-a {
+    text-decoration: none;
+    color: white;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar_img {
+    width: 10vh;
+    height: 10vh;
+    padding-right: 10px;
+    border-radius: 50%;
+}
+
+header {
+    background: no-repeat url("./img/paisaje.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 60%);
+    color: white;
+    display: flex;
+    font-size: 6vh;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section,
+article {
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.feacture__box {
+    margin: 30px 10px;
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+}
+
+.feacture__box img {
+    margin: 10px;
+}
+
+.feactures__title {
+    font-size: 4vh;
+    color: gray;
+}
+
+header h1 {
+    font-size: 8vh;
+}
+
+section {
+    padding-top: 30px;
+}
+
+article {
+    color: #000;
+    background-color: rgba(128, 128, 128, 0.45);
+    padding: 20px;
+}
+
+p {
+    padding: 10px;
+    line-height: 2;
+}
+
+.people__box {
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.people__description {
+    background-color: white;
+    padding: 10px;
+}
+
+.people__avatar,
+footer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.people__box>h1 {
+    display: inline-block;
+    margin: 40px 0px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.813);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1>a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
