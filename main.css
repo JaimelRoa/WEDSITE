@@ -60,7 +60,9 @@ header {
     width: 100vw;
     height: 100vh;
 }
-
+header a{
+    text-decoration:none;
+}
 section,
 article {
     margin: 100px 0px;
